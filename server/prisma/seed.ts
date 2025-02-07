@@ -2,8 +2,6 @@ import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
-//Run "npx prisma db seed" command to seed the database
-
 const seedDb = async () => {
     try {
         const data = [
