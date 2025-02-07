@@ -53,6 +53,28 @@ Run the following command
 docker run -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
 ```
 
+```sh
+docker ps
+```
+
+Copy the process id
+
+```sh
+docker exec -it < process id > /bin/bash
+```
+
+Switch the user to `postgres`
+
+```sh
+psql -U postgres
+```
+
+Get access to your tables
+
+```sh
+\dt
+```
+
 ### Migrate and Seed the database
 
 To seed the database locally run the following commands:
