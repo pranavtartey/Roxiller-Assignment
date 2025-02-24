@@ -82,6 +82,9 @@ To seed the database locally run the following commands:
 ```sh
 cd server
 ```
+```sh
+cp .env.example .env
+```
 
 ```sh
 npx prisma migrate dev
