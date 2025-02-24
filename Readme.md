@@ -25,11 +25,19 @@ cd server
 ```
 
 ```sh
+cp .env.example .env
+```
+
+```sh
 npm install
 ```
 
 ```sh
 cd client
+```
+
+```sh
+cp .env.example .env
 ```
 
 ```sh
@@ -81,9 +89,6 @@ To seed the database locally run the following commands:
 
 ```sh
 cd server
-```
-```sh
-cp .env.example .env
 ```
 
 ```sh
